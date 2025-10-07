@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal Deccor - Premier Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcomePopup" class="popup-overlay">
+        <div class="popup-content">
+                        <img src="popup.jpeg" alt="Welcome to Ideal Deccor" class="popup-image">
+        </div>
+    </div>
+
+        <header>
+        <nav>
+            <div class="logo">Ideal Deccor</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Creating Unforgettable Moments</h1>
+            <p>Premier event management and decoration services that bring your vision to life</p>
+            <a href="#contact" class="cta-button">Plan Your Event</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎊</div>
+                    <h3>Wedding Planning</h3>
+                    <p>Complete wedding planning and decoration services to make your special day perfect. From venue selection to floral arrangements, we handle every detail.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Corporate Events</h3>
+                    <p>Professional event management for conferences, seminars, product launches, and corporate celebrations that reflect your brand.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎂</div>
+                    <h3>Birthday Parties</h3>
+                    <p>Themed birthday celebrations for all ages with creative decorations, entertainment, and seamless coordination.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎭</div>
+                    <h3>Social Events</h3>
+                    <p>Anniversary celebrations, engagement parties, baby showers, and other social gatherings designed to impress.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Custom Decorations</h3>
+                    <p>Bespoke decoration designs tailored to your theme, style, and budget with attention to every aesthetic detail.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Event Coordination</h3>
+                    <p>End-to-end event management including vendor coordination, timeline management, and on-site supervision.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Ideal Deccor</h2>
+            <div class="about-content">
+                <p>At Ideal Deccor, we believe every event tells a unique story. With years of experience in event management and decoration, we specialize in transforming ordinary spaces into extraordinary experiences.</p>
+                <p>Our passionate team of creative professionals works closely with you to understand your vision and bring it to life with meticulous attention to detail, innovative designs, and flawless execution.</p>
+                <p>From intimate gatherings to grand celebrations, we're committed to making your event memorable, stress-free, and truly ideal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="wedding decor.jpeg" alt="img" style="width: 460px; height: 250px; border-radius: 10px;"></div>
+                <div class="gallery-item"><img src="weding.jpeg" alt="img" style="width: 460px; height: 250px; border-radius: 10px;" ></div>
+                <div class="gallery-item"><img src="bride.jpeg" alt="img" style="width: 460px; height: 250px; border-radius: 10px;"></div>
+                <div class="gallery-item"><img src="groom.jpeg" alt="img" style="width: 460px; height: 250px; border-radius: 10px;"></div>
+                <div class="gallery-item"><img src="birthday.jpeg" alt="img" style="width: 460px; height: 250px; border-radius: 10px;"></div>
+                <div class="gallery-item"><img src="cradle.jpeg" alt="img"style="width: 460px; height: 250px; border-radius: 10px;"></div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-content">
+            <h2>Get In Touch</h2>
+            <p>Ready to plan your perfect event? Contact us today for a consultation.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>📱 WhatsApp</strong>
+                    <a href="https://wa.me/916238871258" target="_blank" style="text-decoration: none; color: inherit;">
+                        +91 62388 71258 (Click to Chat)
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <strong>📞 Phone</strong>
+                    <a href="tel:+916238871258" style="text-decoration: none; color: inherit;">
+                        +91 62388 71258
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <strong>📧 Email</strong>
+                    <a href="Mohsheez6@gmail.com" style="text-decoration: none; color: inherit;">
+                        Mohsheez6@gmail.com
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <strong>📍 Location</strong>
+                    Kannur, Kerala, India
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Ideal Deccor. All rights reserved. Creating perfect moments, one event at a time.</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const popup = document.getElementById('welcomePopup');
+            
+            // Set the delay for the pop-up to disappear (4000ms = 4 seconds)
+            const delayInMilliseconds = 4000; 
+
+            // Function to hide the pop-up
+            function hidePopup() {
+                // The 'hidden' class triggers the CSS fade-out effect
+                popup.classList.add('hidden');
+            }
+
+            // Start the timer to hide the pop-up after the delay
+            setTimeout(hidePopup, delayInMilliseconds);
+
+            // OPTIONAL: Allow the user to click on the pop-up to close it instantly
+            popup.addEventListener('click', hidePopup);
+        });
+    </script>
+</body>
+</html>
